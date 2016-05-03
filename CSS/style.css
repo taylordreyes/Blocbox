@@ -47,3 +47,76 @@ p {
   min-height: 1px;
   margin: 0 2% 20px;
 }
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+  .one-half {
+    width: 46%;
+  }
+  .one-third {
+    width: 29.33333%;
+  }
+  .one-fourth {
+    width: 21%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* Rectangle in the header*/
+Rectangle {
+  background: #333A56;
+  border-radius: 4px;
+}
+
+/* HEADER */
+header {
+  color: #EFF2F4;
+  background: #FFFFFF;
+}
+header nav {
+  padding: 1em 0;
+}
+header nav ul {
+  display:inline;
+  text-align: right;
+  float: right;
+  margin: 0;
+}
+header nav ul > li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 15px;
+}
+header nav ul > li.btn-outline {
+  padding: 10px 15px;
+  border: 2px solid #FFFFFF;
+  border-radius: 4px;
+}
+header nav ul > li.btn-outline:hover {
+  background: #FFFFFF;
+}
+header nav ul > li > a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+header nav ul > li.btn-outline:hover > a {
+  color: #34495E
+}
+
+
+
+
+
