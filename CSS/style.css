@@ -76,6 +76,12 @@ p {
   }
 }
 
+@media (min-width: 1824px) {
+  .container {
+    width: 1770px;
+  }
+}
+
 /* HEADER */
 header {
   color:#EFF2F4;
