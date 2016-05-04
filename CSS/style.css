@@ -126,7 +126,7 @@ header .hero p {
   margin:10px 0 40px;
 }
 header .heroImage {
- display: inline;
+ display: center;
  margin:3em auto 0;
 }
 
