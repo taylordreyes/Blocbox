@@ -21,6 +21,7 @@ p {
   font-size: 16px;
   line-height: 19px;
   font-weight: 100;
+  font-family: "Lato", Helvetica, Arial, serif;
 }
 
 /* GRID */
@@ -77,12 +78,7 @@ p {
 
 /* HEADER */
 header {
-  border-radius: 4px;
   color:#EFF2F4;
-  font-weight: 700;
-  text-decoration: none;
-  background: #333A56;
-  border: 2px solid #333A56;
 }
 header nav {
   padding: 1em 0;
