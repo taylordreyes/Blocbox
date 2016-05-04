@@ -97,7 +97,7 @@ header nav ul > li {
 header nav ul > li.btn-outline {
   padding: 10px 15px;
   border: 2px solid #333A56;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 header nav ul > li.btn-outline:hover {
   background: #333A56;
@@ -109,34 +109,50 @@ header nav ul > li > a {
 header nav ul > li.btn-outline:hover > a {
   color: #EFF2F4;
 }
-header .hero {
-  text-align: right;
+header .rectangle_hero {
   display:block;
   position: relative;
 }
-header .hero h1 {
-  font-size:48px;
+
+header .rectangle_hero h1 {
+  font-size:45px;
   font-weight: normal;
-  margin:95px 0 0;
+  margin:50px 0 0;
+  text-align: justify;
+  text-align-last:right;
+  padding: 20px;
+  line-height: 40px;
 }
-header .hero p {
+header .rectangle_hero p {
   font-size: 22px;
-  line-height: 26px;
-  font-weight: 100;
-  margin:10px 0 40px;
+  text-align: right;
+  margin: -30px 0 0;
+  padding: 20px;
+  line-height: 30px;
 }
-header .hero img {
- display: block;
- margin:3em auto 0;
+
+header .btn {
+  position: relative;
+  margin: -10px 0 0;
+
+}
+
+#heroImage {
+  background-image: url(https://static.pexels.com/photos/174/coffee-apple-iphone-laptop.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Rectangle Header */
 #rectangle{
-    width:975px;
-    height:364px;
+    width:800px;
+    height:200px;
     border-radius: 4px;
     background: #333A56;
-    padding:10px 30px;
+    opacity: 0.9;
 }
 
  /* BUTTONS */
