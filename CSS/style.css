@@ -126,21 +126,21 @@ header .rectangle_hero h1 {
   margin:50px 0 0;
   text-align: justify;
   text-align-last:right;
-  padding: 20px;
-  line-height: 40px;
+  padding: 20px 20px 5px 0;
+  line-height: 45px;
 }
+
 header .rectangle_hero p {
-  font-size: 22px;
+  font-size: 19px;
   text-align: right;
-  margin: -30px 0 0;
-  padding: 20px;
-  line-height: 30px;
+  margin: 0px;
+  padding: 0 20px 5px 0;
+  line-height: 24px; 
 }
 
 header .btn {
   position: relative;
-  margin: -10px 0 0;
-
+  opacity: 1.0;
 }
 
 #heroImage {
@@ -155,7 +155,7 @@ header .btn {
 /* Rectangle Header */
 #rectangle{
     width:800px;
-    height:200px;
+    height:215px;
     border-radius: 4px;
     background: #333A56;
     opacity: 0.9;
@@ -172,4 +172,63 @@ header .btn {
   border: 2px solid #1AC578;
   box-shadow: 0px 2px 4px 0px #171922;
 }
+
+/* BENEFITS */
+.benefits {
+  display: block;
+}
+
+.benefits ul {
+  margin: 0em auto;
+  padding: 0em 0;
+}
+
+.benefits i {
+  color: #EFF2F4;
+  font-size: 22px;
+  margin: 0;
+}
+
+.benefits h4 {
+  color: #EFF2F4;
+  line-height: 0.5px;
+}
+
+.benefits {
+  color: #EFF2F4;
+  background: #333A56;
+  background-image: linear-gradient(-180deg, #626C8F 0%, #333A56 100%);
+}
+
+.benefits h3 {
+  color: #EFF2F4;
+}
+
+.benefits p {
+}
+
+#monitor {
+  position: inline-block;
+  float: right;
+}
+
+/* PRICING */
+
+
+
+
+/* TESTIMONIALS */
+.testimonials {
+background: #333A56 url("../Images/testimonials.png") no-repeat;
+background-size: 1440px 540px;
+}
+
+
+
+
+
+
+
+
+
 
