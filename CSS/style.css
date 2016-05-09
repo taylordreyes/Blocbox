@@ -200,7 +200,7 @@ header .btn {
   color: #EFF2F4;
   margin: 0 200px 0 300px;  
   text-align: right;
-  padding-bottom: 60px;
+  padding-bottom: 63px;
 } 
 
 .benefitsText i {
@@ -220,13 +220,12 @@ header .btn {
 
 /* PRICING */
 .pricing {
-  background: #EFF2F4
-  padding: 6em 0;
   text-align: center;
+  color: #333A56;
 }
 
 .pricing h2, .pricing p {
-  color: #333333;
+  color: #333A56;
   text-align: center;
 }
 
@@ -244,12 +243,6 @@ header .btn {
   font-size: 15px;
 }
 
-#fineprint {
-  font-style: italic;
-  font-size: 10px;
-  text-align: center;
-}
-
 .pricing h3 {
   font-size: 28px;
 }
@@ -257,6 +250,44 @@ header .btn {
 .pricing h2 {
   font-size: 32px;
   text-align: center;
+  padding-top: 20px;
+}
+
+.container p {
+  margin: 0 300px 0 300px;
+}
+
+.box h2 span.superscript {
+  font-family: Lato-Light;
+  font-size: 30px;
+  color: #8D8F99;
+  letter-spacing: 0px;
+  vertical-align: baseline;
+  position: relative;
+  top: -1.15em;
+}
+
+.box h2 span.zero {
+  font-family: Lato-Light;
+  font-size: 80px;
+  color: #333A56;
+  line-height: 10px;
+}
+
+.box span.month {
+  font-family: Lato-Light;
+  font-size: 14px;
+  color: #8D8F99;
+  letter-spacing: 0px;
+  line-height: 19px;
+}
+
+.container h4 {
+  font-size: 22px;
+}
+
+.box {
+  border-style: solid;
 }
 
 
