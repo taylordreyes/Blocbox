@@ -87,6 +87,10 @@ header {
   color:#EFF2F4;
 }
 
+header .site-logo {
+  padding-left: 30px;
+}
+
 header nav {
   padding: 1em 0;
 }
@@ -358,6 +362,48 @@ span.position {
   border-radius: 70px;
   padding top: 30px;
 }
+
+
+/* FOOTER */
+ footer p, footer nav ul {
+   font-size:14px;
+   font-weight:100;
+   text-align: center;
+   margin: 20px auto 0;
+ }
+
+ footer nav ul li {
+   list-style-type: none;
+   display: inline;
+ }
+
+ footer nav ul li a {
+   color:#333A56;
+   text-decoration: none;
+ }
+
+ footer .logo{
+   padding: 2.35em 0;
+   margin: 0 auto;
+   display: block;
+ }
+
+@media (min-width: 992px) {
+   footer {
+     background-color: #EFF2F4;
+   }
+
+   footer p, footer nav ul {
+     padding: 2em 0;
+     text-align: left;
+   }
+   footer .right-footer-block {
+     background-color: #EFF2F4;
+   }
+   footer .logo{
+     padding: 2em 0 2em 1.5em;
+   }
+ }
 
 
 
