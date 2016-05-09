@@ -286,8 +286,8 @@ header .btn {
   font-size: 22px;
 }
 
-.box {
-  border-style: solid;
+.box:hover {
+  border: 3px solid #777;
 }
 
 
@@ -296,23 +296,26 @@ header .btn {
 .testimonials {
   background: #333A56 url("../Images/testimonials.png") top center no-repeat;
   background-size: cover;
-  text-align: center;
   padding:1em 0;
+  text-align: center;
 }
 
-.testimonials p {
+.testimonials .p {
   color: #EFF2F4;
-  margin: 20px 100px 0 100px;
+  margin: 20px 0 20px 0;
+  font-family: "Lato";
+  text-align: center;
+  padding-bottom: 50px;
 }
 
 .testimonials .quote {
    background-color: #FFFFFF;
    position: relative;
-   padding: 10px;
    width:auto;
-   margin:0 360px 0 360px;
+   margin:0 360px 15px 360px;
    box-shadow: 0px 2px 4px 0px #171922;
    border-radius: 25px;
+   padding: 20px;
  }
 
  .testimonials blockquote {
@@ -324,8 +327,9 @@ header .btn {
   opacity: 0.51;
   font-size: 43.66px;
   color: rgba(141,143,153,0.53);
+  left: 55px;
   position: absolute;
-  left: 45px;
+  top: 5px;
 }
 
 .testimonials i, blockquote {
@@ -336,31 +340,24 @@ span.name {
   font-size: 28px;
   font-family: "Lato";
   line-height: 19px;
+  text-align: center;
 }
-
 
 span.position {
   font-size: 18px;
   font-family: "Lato-Light";
   padding-top: 0; 
+  text-align: center;
 }
 
 .testimonials img {
   position: absolute;
-  top: -50px;
+  top: -55px;
   left: 530px;
   z-index: 1;
   border-radius: 70px;
+  padding top: 30px;
 }
-
-
-
-
-
-
-
-
-
 
 
 
