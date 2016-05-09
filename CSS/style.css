@@ -253,7 +253,7 @@ header .btn {
   padding-top: 20px;
 }
 
-.container p {
+.pricing p {
   margin: 0 300px 0 300px;
 }
 
@@ -294,9 +294,67 @@ header .btn {
 
 /* TESTIMONIALS */
 .testimonials {
-background: #333A56 url("../Images/testimonials.png") no-repeat;
-background-size: 1440px 540px;
+  background: #333A56 url("../Images/testimonials.png") top center no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding:1em 0;
 }
+
+.testimonials p {
+  color: #EFF2F4;
+  margin: 20px 100px 0 100px;
+}
+
+.testimonials .quote {
+   background-color: #FFFFFF;
+   position: relative;
+   padding: 10px;
+   width:auto;
+   margin:0 360px 0 360px;
+   box-shadow: 0px 2px 4px 0px #171922;
+   border-radius: 25px;
+ }
+
+ .testimonials blockquote {
+    font-style: italic;
+    text-align: center;
+ }
+
+.testimonials i {
+  opacity: 0.51;
+  font-size: 43.66px;
+  color: rgba(141,143,153,0.53);
+  position: absolute;
+  left: 45px;
+}
+
+.testimonials i, blockquote {
+  margin-top: 75px;
+}
+
+span.name {
+  font-size: 28px;
+  font-family: "Lato";
+  line-height: 19px;
+}
+
+
+span.position {
+  font-size: 18px;
+  font-family: "Lato-Light";
+  padding-top: 0; 
+}
+
+.testimonials img {
+  position: absolute;
+  top: -50px;
+  left: 530px;
+  z-index: 1;
+  border-radius: 70px;
+}
+
+
+
 
 
 
