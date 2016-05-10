@@ -365,7 +365,13 @@ span.position {
 
 
 /* FOOTER */
- footer p, footer nav ul {
+footer p {
+  font-size:14px;
+  font-weight:100;
+  padding-left: 0;
+}
+
+footer nav ul {
    font-size:14px;
    font-weight:100;
    text-align: center;
@@ -382,8 +388,7 @@ span.position {
    text-decoration: none;
  }
 
- footer .logo{
-   padding: 2.35em 0;
+ footer .logo {
    margin: 0 auto;
    display: block;
  }
@@ -394,8 +399,8 @@ span.position {
    }
 
    footer p, footer nav ul {
-     padding: 2em 0;
-     text-align: left;
+     padding: 2.5em 0;
+     text-align: center;
    }
    footer .right-footer-block {
      background-color: #EFF2F4;
@@ -404,6 +409,21 @@ span.position {
      padding: 2em 0 2em 1.5em;
    }
  }
+
+/* SOCIAL MEDIA */
+.social {
+  background-color: rgba(50,57,86,0.50);
+  min-width: 256px;
+}
+
+.social {
+  font-size: 40px;
+  color: #F1F2F5;
+  float: left;
+  text-align: center;
+  padding: 20px 0;
+}
+
 
 
 
