@@ -49,6 +49,10 @@ p {
   margin: 0 2% 20px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 /* Small devices */
 @media (min-width: 768px) {
   .container {
@@ -59,7 +63,7 @@ p {
 /* Medium devices */
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+    width: 100%;
   }
   .one-half {
     width: 46%;
@@ -164,6 +168,7 @@ header .btn {
 #heroImage {
   background-image: url(https://static.pexels.com/photos/174/coffee-apple-iphone-laptop.jpg);
   min-height: 650px;
+  max-height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -208,8 +213,8 @@ header .btn {
 
 .benefits img {
   float: right;
-  height: 320px;
-  width: 510px;
+  height: 35%;
+  width: 45%;
   padding-right: 50px;
   padding-top: 50px;
 
@@ -224,10 +229,10 @@ header .btn {
 .benefitsText {
   color: #EFF2F4;
   text-align: right;
-  position: absolute;
   font-family: "Lato-Light";
   margin-right: 55%;
   margin-left: 20%;
+  padding-bottom: 20px;
 }
 
 /* PRICING */
