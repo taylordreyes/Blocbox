@@ -31,11 +31,14 @@ p {
   padding-left: 15px;
   padding-right: 15px;
   position: relative;
+  box-sizing: border-box;
 }
+
 .container:before,
 .container:after {
   content: " ";
   display: table;
+  box-sizing: border-box;
 }
 .container:after {
   clear: both;
@@ -49,9 +52,7 @@ p {
   margin: 0 2% 20px;
 }
 
-* {
-  box-sizing: border-box;
-}
+
 
 /* Small devices */
 @media (min-width: 768px) {
@@ -200,6 +201,7 @@ header .btn {
   color: #EFF2F4;
   background: #333A56;
   background-image: linear-gradient(-180deg, #626C8F 0%, #333A56 100%);
+  min-width: 33.33%;
 }
 
 .benefits h2 {
@@ -217,7 +219,7 @@ header .btn {
   width: 45%;
   padding-right: 50px;
   padding-top: 50px;
-
+  padding-bottom: 0;
 }
 
 .benefitsText i {
@@ -235,13 +237,21 @@ header .btn {
   padding-bottom: 20px;
 }
 
+
+
 /* PRICING */
 .pricing {
   color: #333A56;
   text-align: center;
 }
+.pricing #planDescription {
+  color: #333A56;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Lato-Light";
+}
 
-.pricing h2, .pricing p {
+.pricing h2 {
   color: #333A56;
   text-align: center;
 }
@@ -254,16 +264,6 @@ header .btn {
 .pricing ul li {
   list-style-type: none;
   text-align: center;
-}
-
-.pricing p {
-  font-size: 15px;
-  text-align: center;
-  margin: 0 300px 0 300px;
-}
-
-.pricing h3 {
-  font-size: 28px;
 }
 
 .pricing h2 {
@@ -377,13 +377,12 @@ span.position {
   padding top: 30px;
 }
 
-
 /* FOOTER */
-footer p {
+footer .copyright-block {
   font-size:14px;
   font-weight:100;
   padding-left: 0;
-  margin: 30px auto 0;
+  margin: 30px auto 0 40px;
 }
 
 footer nav ul {
@@ -408,18 +407,28 @@ footer nav ul {
    display: block;
  }
 
+
+footer .copyright-block {
+  min-width: 33.33%;
+  text-align: center;
+  color:#333A56;
+}
+
+
 @media (min-width: 992px) {
    footer {
      background-color: #EFF2F4;
    }
 
-   footer p, footer nav ul {
+   footer .copyright-block, footer nav ul {
      padding: 2.5em 0;
      text-align: center;
    }
+
    footer .right-footer-block {
      background-color: #EFF2F4;
    }
+
    footer .logo{
      padding: 2em 0 2em 1.5em;
    }
