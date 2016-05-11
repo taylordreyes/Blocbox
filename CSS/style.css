@@ -41,7 +41,7 @@ p {
   clear: both;
 }
 
-.one-half, .one-third, .one-fourth, .one-fifth {
+.one-half, .one-third, .one-fourth {
   width: 96%;
   float: left;
   position: relative;
@@ -143,7 +143,7 @@ header .rectangle_hero h1 {
   margin:50px 0 0;
   text-align: justify;
   text-align-last:right;
-  padding: 20px 40px 5px 0;
+  padding: 20px 40px 5px 0px;
   line-height: 45px;
 }
 
@@ -151,12 +151,14 @@ header .rectangle_hero p {
   font-size: 19px;
   text-align: right;
   margin: 0px;
-  padding: 0 40px 5px 0;
-  line-height: 24px; 
+  padding-left: 220px;
+  line-height: 24px;
+  padding-bottom: 15px;
 }
 
 header .btn {
-  margin: 0 40px 50px 0;
+  float: right;
+  margin-right: 40px;
 }
 
 #heroImage {
@@ -171,7 +173,7 @@ header .btn {
 /* Rectangle Header */
 #rectangle {
     width:900px;
-    height:215px;
+    height:220px;
     border-radius: 4px;
     background: #333A56;
 }
@@ -193,41 +195,45 @@ header .btn {
   color: #EFF2F4;
   background: #333A56;
   background-image: linear-gradient(-180deg, #626C8F 0%, #333A56 100%);
-  margin: 0;
 }
 
 .benefits h2 {
   color: #EFF2F4;
-  margin: 0px 50px 0 100px;
   text-align: right;
-  padding: 50px 100px 20px 0;
+  margin-right: 55%;
+  padding-top: 20px;
+  margin-bottom: 0;
+  padding-bottom: 35px;
 }
 
-.benefitsText {
-  color: #EFF2F4;
-  margin: 0 200px 0 300px;  
-  text-align: right;
-  padding-bottom: 63px;
-} 
+.benefits img {
+  float: right;
+  height: 320px;
+  width: 510px;
+  padding-right: 50px;
+  padding-top: 50px;
+
+}
 
 .benefitsText i {
   font-size: 20px;
   line-height: 16px;
-  padding-right: 8px; 
+  padding-right:8px;
 }
 
-
-.benefits img {
-    float: right;
-    padding: 50px 50px 0 100px;
-    width: 620px;
-    height: 410px;
+.benefitsText {
+  color: #EFF2F4;
+  text-align: right;
+  position: absolute;
+  font-family: "Lato-Light";
+  margin-right: 55%;
+  margin-left: 20%;
 }
 
 /* PRICING */
 .pricing {
-  text-align: center;
   color: #333A56;
+  text-align: center;
 }
 
 .pricing h2, .pricing p {
@@ -247,6 +253,8 @@ header .btn {
 
 .pricing p {
   font-size: 15px;
+  text-align: center;
+  margin: 0 300px 0 300px;
 }
 
 .pricing h3 {
@@ -257,10 +265,6 @@ header .btn {
   font-size: 32px;
   text-align: center;
   padding-top: 20px;
-}
-
-.pricing p {
-  margin: 0 300px 0 300px;
 }
 
 .box h2 span.superscript {
@@ -296,6 +300,11 @@ header .btn {
   border: 3px solid #777;
 }
 
+.pricing #smallprint {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
 
 
 /* TESTIMONIALS */
@@ -306,11 +315,9 @@ header .btn {
   text-align: center;
 }
 
-.testimonials .p {
-  color: #EFF2F4;
-  margin: 20px 0 20px 0;
-  font-family: "Lato";
+.testimonials #description {
   text-align: center;
+  color: #EFF2F4;
   padding-bottom: 50px;
 }
 
@@ -462,8 +469,6 @@ footer nav ul {
 
  .left-nav .items ul li {
   list-style-type: none;
-  margin-bottom: 15px;
-  padding-bottom: 10px;
  }
 
 .left-nav .items ul li a {
@@ -471,7 +476,6 @@ footer nav ul {
   text-decoration: none;
   font-weight: 100;
   text-align: center;
-  padding-bottom: 55px;
   font-size: 14px;
  }
 
@@ -482,9 +486,8 @@ footer nav ul {
   font-size: 18px;
 }
 
-.left-nav .allItems {
-  border-radius: 4px;
-  background: linear-gradient(0deg, rgba(50,57,86,0.90) 0%, rgba(81,100,143,0.90) 100%);
+.left-nav .items a:hover {
+  background-color: yellow;
 }
 
 .header img, p {
