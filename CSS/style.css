@@ -660,10 +660,26 @@ footer .copyright-block {
    margin-top:8px;
  }
 
- .items a:hover {
+.items li a:link {
+  color:#FFFFFF;
+  text-decoration: none;
+}
+
+.items li a:visited {
+  color:#FFFFFF;
+  text-decoration: none;
+}
+
+ .items li a:hover {
     background-color: #1AC578;
     padding: 10px 5px 10px 5px;
 }
+
+ .items li a:active {
+    background-color: white;
+    color: black;
+    padding: 10px 5px 10px 5px;
+ }
 
  /* CONTENT */
  .content {
