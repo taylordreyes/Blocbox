@@ -59,6 +59,44 @@ p {
   .container {
     width: 750px;
   }
+
+}
+
+@media (max-width: 768px) {
+  .benefits img {
+    display: none;
+  }
+
+  .benefits {
+  text-align: center;
+  padding: 20px; 
+  }
+
+  .benefitsText {
+    display: inline;
+  }
+
+  .benefits h2 {
+    display: inline;
+  }
+
+  header .rectangle_hero {
+    position: absolute;
+  }
+
+  header .one-half {
+    position: absolute;
+  }
+  .testimonials .stella {
+    width: 150%;
+    margin-left: -23%;
+  }
+
+  .testimonials img{
+    display:none;
+  }
+
+    
 }
 
 /* Medium devices */
@@ -75,6 +113,20 @@ p {
   .one-fourth {
     width: 21%;
   }
+}
+
+@media (max-width: 992px) {
+  header .one-half {
+    position: absolute;
+  } 
+    .testimonials img{
+    display:none;
+  }
+    .testimonials .stella {
+    width: 115%;
+    margin-left: -10%;
+  }
+
 }
 
 /* Large desktop */
@@ -319,7 +371,13 @@ header .btn {
 .testimonials {
   background: #333A56 url("../Images/testimonials.png") top center no-repeat;
   background-size: cover;
-  padding:1em 0;
+  padding:2em 0;
+  text-align: center;
+}
+
+.testimonials .one-third {
+  position: relative;
+  display: inline;
   text-align: center;
 }
 
@@ -354,13 +412,12 @@ header .btn {
 }
 
 .testimonials i, blockquote {
-  margin-top: 75px;
+  margin-top: 60px;
 }
 
 span.name {
   font-size: 28px;
   font-family: "Lato";
-  line-height: 19px;
   text-align: center;
 }
 
@@ -373,8 +430,8 @@ span.position {
 
 .testimonials img {
   position: absolute;
-  top: -55px;
-  left: 530px;
+  left: 565px;
+  top: 279%;
   z-index: 1;
   border-radius: 70px;
   padding top: 30px;
