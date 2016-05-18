@@ -24,7 +24,7 @@
 
 <!-- LEFT NAV -->
   <nav id="left-nav" class="left-nav">
-    <a href="#" class="site-logo"><img src="Images/LogoWhite.png"/></a>
+    <a href="index.html" class="site-logo"><img src="Images/LogoWhite.png"/></a>
     <div class="items">
       <p>Items</p>
       <ul>
@@ -43,7 +43,16 @@
     <div class="settings">
       <img src="Images/ProfilePicture.png">
       <p>Sam Martin</p>
-      <a href="#"><i class="fa fa-cog"></i></a>
+        <ul class="menuGear">
+          <li>
+          <a href="#"><i class="fa fa-cog"></i></a>
+          <ul>
+            <li><a href="#"><i class="fa fa-file-o"></i> My Account</a></li>
+            <li><a href="#"><i class="fa fa-picture-o"></i> Friends</a></li>
+            <li><a href="#"><i class="fa fa-link"></i> Sign Out</a></li>
+          </ul>
+          </li>
+        </ul>
     </div>
   </nav>
 
@@ -141,6 +150,7 @@
   <script src="JS/dropit.js"></script>
   <script type="text/javascript">
      $(".menu").dropit();
+     $(".menuGear").dropit();
      $("#menu").click(function() {
          $("#left-nav").toggleClass("open", 200);
      });

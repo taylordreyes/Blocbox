@@ -9,30 +9,31 @@
 
 /* These styles assume you are using ul and li */
 .dropit {
-    list-style: none;
-	padding: 0;
+  list-style: none;
+  padding: 0;
 	margin: 15px 0 0;
-    float: right;
-    display: inline-block;
+  float: right;
+  display: inline-block;
 }
 
 .dropit .dropit-trigger { position: relative; }
 .dropit .dropit-submenu {
-    position: absolute;
-    top: 100%;
-    right: 0; /* dropdown left or right */
-    z-index: 1000;
-    display: none;
-    min-width: 100px;
-    list-style: none;
+  position: absolute;
+  top: 100%;
+  right: 0; /* dropdown left or right */
+  z-index: 1000;
+  display: none;
+  min-width: 100px;
+  list-style: none;
 	padding: 20px;
 	margin: 20px 0 0;
 }
+
 .dropit .dropit-open .dropit-submenu { 
-    display: block; 
-    background-color: #FFFFFF;
-    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
-    border-radius: 4px;
+  display: block; 
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
+  border-radius: 4px;
 }
 
 .dropit .dropit-open .dropit-submenu:after {
@@ -45,7 +46,6 @@
   width: 0;
   z-index: 1;
   top: -8px;
-  right: 10px;
  }
 
  .dropit .dropit-open .dropit-submenu li {
@@ -58,6 +58,64 @@
  }
 
  .dropit .dropit-open .dropit-submenu li a {
+  color:#34495E;
+  text-decoration: none;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight:100;
+ }
+
+
+/*Gear Settings*/
+.menuGear ul.dropit {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0;
+  float: left;
+  display: inline-block;
+}
+.menuGear ul.dropit .dropit-trigger { 
+  position: relative; 
+}
+.menuGear ul.dropit .dropit-submenu {
+  position: relative;
+  right: 0; /* dropdown left or right */
+  z-index: 1000;
+  display: none;
+  min-width: 100px;
+  list-style: none;
+  padding: 20px;
+  margin: 20px 0 0;
+}
+.menuGear ul.dropit .dropit-open .dropit-submenu { 
+  display: block; 
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
+  border-radius: 4px;
+}
+
+.menuGear ul.dropit .dropit-open .dropit-submenu:after {
+  content: " ";
+  position: absolute;
+  border-style: solid;
+  border-width: 0 8px 8px;
+  border-color: #FFFFFF transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  bottom: -8px;
+  right: 10px;
+ }
+
+  .menuGear ul.dropit .dropit-open .dropit-submenu li {
+  display: block;
+  margin-bottom: 20px;
+ }
+
+ .menuGear ul.dropit .dropit-open .dropit-submenu li:last-child {
+  margin-bottom: 0px;
+ }
+
+ .meanGear ul.dropit .dropit-open .dropit-submenu li a {
   color:#34495E;
   text-decoration: none;
   font-family: "Lato", Helvetica, Arial, sans-serif;
