@@ -68,7 +68,7 @@ p {
   }
 
   .benefits {
-  padding: 20px; 
+  padding: 15px; 
   }
 
   .benefitsText {
@@ -84,32 +84,33 @@ p {
   }
 
   header #rectangle {
-    width: 95%;
+    width: 90%;
   }
 
   header #rectangle h1{
-    font-size: 24px;
+    font-size: 28px;
     text-align: right;
     line-height: 24px;
-    padding-left: -5px;
+    margin-bottom: -10px;
   }
 
-  header .rectangle_hero h5 {
-  font-size: 16px;
-  padding-right: 45px;
+  header #rectangle h2{
+    font-size: 20px;
+    text-align: right;
+    line-height: 24px;
+    padding-right: 40px;
   }
 
-
-  .testimonials .stella {
-   width:270%;
-   margin-left: -340px;
+  header #rectangle p {
+    padding-right: 40px;
+    margin-top: 10px;
+    margin-bottom: -5px;
   }
 
-  .testimonials img{
-    display:none;
+  header #rectangle .btn {
+    margin-top: 5px;
+    margin-right: 40px;
   }
-
-    
 }
 
 /* Medium devices */
@@ -126,19 +127,57 @@ p {
   .one-fourth {
     width: 21%;
   }
+
 }
 
 @media (max-width: 992px) {
   header .one-half {
     position: absolute;
   } 
-    .testimonials img{
-    display:none;
+
+
+ .testimonials img {
+  display: none;
+ }
+
+ .testimonials .stella {
+  width: 270%;
+  margin-left: -340px;
+ }
+
+
+header .rectangle_hero {
+    position: absolute;
   }
-    .testimonials .quote {
-    width: 115%;
-    margin-left: -10%;
+
+  header #rectangle {
+    width: 80%;
   }
+
+  header #rectangle h1{
+    font-size: 28px;
+    text-align: right;
+    line-height: 24px;
+    margin-bottom: -5px;
+  }
+
+  header #rectangle h2{
+    font-size: 20px;
+    text-align: right;
+    line-height: 24px;
+    padding-right: 40px;
+  }
+
+  header #rectangle p {
+    padding-right: 40px;
+    margin-top: 15px;
+    margin-bottom: -5px;
+  }
+
+  header #rectangle .btn {
+    margin-top: 5px;
+    margin-right: 40px;
+  } 
 
 }
 
@@ -210,21 +249,31 @@ header .rectangle_hero {
 header .rectangle_hero h1 {
   font-size:45px;
   font-weight: normal;
-  margin:50px 0 0;
+  margin-top:60px;
+  margin-bottom: -15px;
   text-align: justify;
   text-align-last:right;
-  padding: 20px 40px 5px 0px;
-  line-height: 45px;
+  padding-top: 20px;
+  padding-bottom: -15px;
+  padding-right: 40px;
+  line-height: 40px;
 }
 
-header .rectangle_hero h5 {
-  font-size: 19px;
-  padding-right: 45px;
+header .rectangle_hero h2 {
+  font-size: 28px;
+  padding-right: 40px;
+  margin-bottom: -5px;
+}
+
+header #rectangle p {
+  padding-right: 40px;
+  margin-bottom: 5px;
 }
 
 header .btn {
   float: right;
-  margin-right: 0px;
+  margin-right: 40px;
+  margin-bottom: -10px;
 }
 
 #heroImage {
@@ -381,11 +430,6 @@ header .btn {
   text-align: center;
 }
 
-.testimonials .one-third {
-  position: relative;
-  display: inline;
-  text-align: center;
-}
 
 .testimonials #description {
   text-align: center;
@@ -395,8 +439,6 @@ header .btn {
 
 .testimonials .quote {
    background-color: #FFFFFF;
-   position: relative;
-   width:auto;
    margin:0 360px 15px 360px;
    box-shadow: 0px 2px 4px 0px #171922;
    border-radius: 25px;
