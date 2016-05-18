@@ -48,6 +48,7 @@
   width: 0;
   z-index: 1;
   top: -8px;
+  right: 10px;
  }
 
  .dropit .dropit-open .dropit-submenu li {
@@ -70,13 +71,13 @@
 /*Gear Settings*/
 .dropit-inverse.dropit .dropit-submenu {
     position: absolute;
-    top: -140px;
+    top: -160px;
     right: 0; /* dropdown left or right */
     z-index: 1000;
     display: none;
-    min-width: 120px;
+    min-width: 100px;
     list-style: none;
-    padding: 20px;
+    padding: 15px;
     margin: 20px 0 0;
 }
 
@@ -96,6 +97,31 @@
     display: block;
     width: 0;
     z-index: 1;
-    top: 100%;
-    right: 10px;
+    top: 117px;
+    right: 8px;
     transform: rotate(180deg);
+}
+
+.dropit-inverse.dropit .dropit-open .dropit-submenu li {
+  display: block;
+  margin-left: 0px;
+
+ }
+.dropit-inverse.dropit .dropit-open .dropit-submenu li:last-child {
+  margin-bottom: 0px;
+ }
+
+.dropit-inverse.dropit .dropit-open .dropit-submenu li a {
+  color:#34495E;
+  text-decoration: none;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  padding-right: -5px;
+  width: 100%;
+  text-align: left;
+  line-height: 34px;
+  margin-right: -1px;
+ }
+
+
+
