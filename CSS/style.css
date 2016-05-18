@@ -454,7 +454,7 @@ header .btn {
   opacity: 0.51;
   font-size: 43.66px;
   color: rgba(141,143,153,0.53);
-  left: 55px;
+  left: -55px;
   position: absolute;
   top: 5px;
 }
